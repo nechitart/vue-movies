@@ -1,0 +1,9 @@
+.movie-overview {
+    margin-top: 2rem;
+}
+
+.movie-overview__content {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 1.1rem;
+}

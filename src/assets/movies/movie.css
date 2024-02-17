@@ -1,0 +1,43 @@
+@import './movie-info.css';
+
+.movie {
+    width: 100vw;
+    height: 100%;
+
+    margin: 0;
+}
+
+.movie__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.movie__common {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.movie__poster {
+    position: relative;
+
+    width: 28%;
+    min-width: 20rem;
+    height: 50vh;
+    min-height: 28rem;
+}
+
+.movie__poster-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}

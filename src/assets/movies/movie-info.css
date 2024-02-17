@@ -1,0 +1,17 @@
+@import './overview.css';
+
+.movie__info {
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+}
+
+.movie__item {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.movie__item > span {
+    font-weight: 700;
+}
